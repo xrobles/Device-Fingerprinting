@@ -33,7 +33,7 @@ module.exports.initializer = function (nattr, nclasses) {
 module.exports.make_prediction = function (acum) {	
 	var ans=0;
 	var ret=0;	
-	ans=nb.make_prediction(2,54,0.88, acum);	
+	ans=nb.make_prediction(2,47,0.88, acum);	
 	return {
 		mpred: (ret = ans)				   
 	

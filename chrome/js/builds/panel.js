@@ -288,7 +288,7 @@ webpackJsonp([3],[
 					
 					//acum=acum+1;
 					//console.log("entrando-- "+url+" conti "+this.props.conti);
-					//resp=init(54,2,this.props.conti).created;  //This is for each url	
+					//resp=init(47,2,this.props.conti).created;  //This is for each url	
 					reports.push(
 						ScriptReport({
 							key: url, 
@@ -370,7 +370,7 @@ webpackJsonp([3],[
 				internal=internal+1;					
 				if (past_url!==this.props.key)
 				{			  
-				  resp=init(54,2).created;  //Initialize the array for each url, we have 54 attributes and 2 classes
+				  resp=init(47,2).created;  //Initialize the array for each url, we have 47 attributes and 2 classes
 				  if (val_canvas == 'canvasFingerprinting')
 				  {
 				  	result=scora("Canvas").fingerp;				
@@ -8307,7 +8307,7 @@ webpackJsonp([3],[
 	module.exports.make_prediction = function (acum) {	
 		var ans=0;
 		var ret=0;	
-		ans=nb.make_prediction(2,54,0.88, acum);	
+		ans=nb.make_prediction(2,47,0.88, acum);	
 		return {
 			mpred: (ret = ans)				   
 		
@@ -11808,8 +11808,8 @@ webpackJsonp([3],[
 /***/ function(module, exports) {
 
 	module.exports = {
-		"0": 5602,
-		"1": 116
+		"0": 4037,
+		"1": 95
 	};
 
 /***/ },
@@ -11817,60 +11817,53 @@ webpackJsonp([3],[
 /***/ function(module, exports) {
 
 	module.exports = {
-		"Navigator.hardwareConcurrency": 15,
 		"Canvas": 0,
-		"Navigator.appVersion": 8,
-		"Navigator.product": 25,
-		"Navigator.plugins": 24,
-		"Navigator.requestMediaKeySystemAccess": 29,
-		"Http_Request": 4,
-		"Navigator.javaEnabled": 16,
-		"webkitRTCPeerConnection": 53,
+		"Navigator.appVersion": 7,
+		"Navigator.product": 21,
+		"Navigator.plugins": 20,
+		"Navigator.requestMediaKeySystemAccess": 25,
+		"Navigator.webkitGetUserMedia": 32,
+		"webkitRTCPeerConnection": 46,
 		"HTMLHtmlElement.clientWidth": 3,
-		"Navigator.mimeTypes": 20,
-		"Navigator.maxTouchPoints": 19,
-		"Navigator.getGamepads": 13,
-		"Navigator.productSub": 26,
-		"Navigator.getBattery": 12,
-		"Navigator.cookieEnabled": 9,
-		"Navigator.vendor": 34,
-		"Navigator.requestMIDIAccess": 28,
+		"Navigator.maxTouchPoints": 16,
+		"Navigator.hardwareConcurrency": 13,
+		"Navigator.productSub": 22,
+		"Navigator.getBattery": 10,
+		"Navigator.cookieEnabled": 8,
+		"Plugin_Access": 35,
+		"Navigator.requestMIDIAccess": 24,
 		"HTMLHtmlElement.clientHeight": 2,
-		"Screen.pixelDepth": 48,
-		"Navigator.unregisterProtocolHandler": 32,
-		"Screen.availWidth": 44,
-		"Navigator.language": 17,
-		"Navigator.doNotTrack": 10,
-		"Navigator.webkitGetUserMedia": 37,
+		"Screen.pixelDepth": 41,
+		"Navigator.unregisterProtocolHandler": 28,
+		"Screen.availWidth": 37,
+		"Screen.availHeight": 36,
+		"Navigator.language": 14,
+		"Navigator.doNotTrack": 9,
 		"Date.prototype.getTimezoneOffset": 1,
-		"Screen.availTop": 43,
-		"Navigator.permissions": 22,
-		"Window.devicePixelRatio": 50,
-		"Navigator.webkitPersistentStorage": 38,
-		"Navigator.sendBeacon": 30,
-		"Window.innerHeight": 51,
-		"Screen.availLeft": 42,
-		"Screen.colorDepth": 45,
-		"Navigator.platform": 23,
-		"Navigator.getStorageUpdates": 14,
-		"MimeType_Access": 5,
-		"Window.innerWidth": 52,
-		"Navigator.registerProtocolHandler": 27,
-		"Navigator.languages": 18,
-		"Navigator.vendorSub": 35,
-		"Screen.width": 49,
-		"Navigator.appCodeName": 6,
-		"Navigator.webkitTemporaryStorage": 39,
-		"Screen.height": 46,
-		"Plugin_Access": 40,
-		"Navigator.vibrate": 36,
-		"Navigator.userAgent": 33,
-		"Screen.orientation": 47,
-		"Navigator.geolocation": 11,
-		"Screen.availHeight": 41,
-		"Navigator.serviceWorker": 31,
-		"Navigator.appName": 7,
-		"Navigator.onLine": 21
+		"Navigator.permissions": 18,
+		"Window.devicePixelRatio": 43,
+		"Navigator.webkitPersistentStorage": 33,
+		"Navigator.sendBeacon": 26,
+		"Window.innerHeight": 44,
+		"Screen.colorDepth": 38,
+		"Navigator.platform": 19,
+		"Navigator.getStorageUpdates": 12,
+		"MimeType_Access": 4,
+		"Window.innerWidth": 45,
+		"Navigator.registerProtocolHandler": 23,
+		"Navigator.languages": 15,
+		"Navigator.vendorSub": 30,
+		"Screen.width": 42,
+		"Navigator.appCodeName": 5,
+		"Navigator.webkitTemporaryStorage": 34,
+		"Screen.height": 39,
+		"Navigator.vibrate": 31,
+		"Navigator.userAgent": 29,
+		"Screen.orientation": 40,
+		"Navigator.getGamepads": 11,
+		"Navigator.serviceWorker": 27,
+		"Navigator.appName": 6,
+		"Navigator.onLine": 17
 	};
 
 /***/ },
@@ -11880,438 +11873,382 @@ webpackJsonp([3],[
 	module.exports = {
 		"0": {
 			"0": {
-				"0": 5591,
-				"1": 11
+				"0": 4028,
+				"1": 9
 			},
 			"1": {
-				"0": 4048,
-				"1": 1554
+				"0": 2839,
+				"1": 1198
 			},
 			"2": {
-				"0": 3948,
-				"1": 1654
+				"0": 2759,
+				"1": 1278
 			},
 			"3": {
-				"0": 3995,
-				"1": 1607
+				"0": 2805,
+				"1": 1232
 			},
 			"4": {
-				"0": 4582,
-				"1": 1020
+				"0": 3045,
+				"1": 992
 			},
 			"5": {
-				"0": 4313,
-				"1": 1289
+				"0": 3746,
+				"1": 291
 			},
 			"6": {
-				"0": 5276,
-				"1": 326
+				"0": 2805,
+				"1": 1232
 			},
 			"7": {
-				"0": 3990,
-				"1": 1612
+				"0": 2783,
+				"1": 1254
 			},
 			"8": {
-				"0": 3942,
-				"1": 1660
+				"0": 3313,
+				"1": 724
 			},
 			"9": {
-				"0": 4662,
-				"1": 940
+				"0": 3859,
+				"1": 178
 			},
 			"10": {
-				"0": 5385,
-				"1": 217
+				"0": 3989,
+				"1": 48
 			},
 			"11": {
-				"0": 5339,
-				"1": 263
+				"0": 4005,
+				"1": 32
 			},
 			"12": {
-				"0": 5542,
-				"1": 60
+				"0": 4009,
+				"1": 28
 			},
 			"13": {
-				"0": 5563,
-				"1": 39
+				"0": 3993,
+				"1": 44
 			},
 			"14": {
-				"0": 5567,
-				"1": 35
+				"0": 3047,
+				"1": 990
 			},
 			"15": {
-				"0": 5550,
-				"1": 52
+				"0": 3933,
+				"1": 104
 			},
 			"16": {
-				"0": 4616,
-				"1": 986
+				"0": 3904,
+				"1": 133
 			},
 			"17": {
-				"0": 4307,
-				"1": 1295
+				"0": 3928,
+				"1": 109
 			},
 			"18": {
-				"0": 5478,
-				"1": 124
+				"0": 4011,
+				"1": 26
 			},
 			"19": {
-				"0": 5446,
-				"1": 156
+				"0": 2644,
+				"1": 1393
 			},
 			"20": {
-				"0": 4229,
-				"1": 1373
+				"0": 2415,
+				"1": 1622
 			},
 			"21": {
-				"0": 5470,
-				"1": 132
+				"0": 3852,
+				"1": 185
 			},
 			"22": {
-				"0": 5569,
-				"1": 33
+				"0": 3938,
+				"1": 99
 			},
 			"23": {
-				"0": 3705,
-				"1": 1897
+				"0": 4002,
+				"1": 35
 			},
 			"24": {
-				"0": 3415,
-				"1": 2187
+				"0": 4010,
+				"1": 27
 			},
 			"25": {
-				"0": 5372,
-				"1": 230
+				"0": 4005,
+				"1": 32
 			},
 			"26": {
-				"0": 5479,
-				"1": 123
+				"0": 3943,
+				"1": 94
 			},
 			"27": {
-				"0": 5561,
+				"0": 3996,
 				"1": 41
 			},
 			"28": {
-				"0": 5569,
-				"1": 33
+				"0": 4003,
+				"1": 34
 			},
 			"29": {
-				"0": 5564,
-				"1": 38
+				"0": 967,
+				"1": 3070
 			},
 			"30": {
-				"0": 5473,
-				"1": 129
+				"0": 3972,
+				"1": 65
 			},
 			"31": {
-				"0": 5554,
-				"1": 48
+				"0": 3996,
+				"1": 41
 			},
 			"32": {
-				"0": 5560,
-				"1": 42
+				"0": 3948,
+				"1": 89
 			},
 			"33": {
-				"0": 1369,
-				"1": 4233
+				"0": 4005,
+				"1": 32
 			},
 			"34": {
-				"0": 4782,
-				"1": 820
+				"0": 4005,
+				"1": 32
 			},
 			"35": {
-				"0": 5525,
-				"1": 77
+				"0": 2468,
+				"1": 1569
 			},
 			"36": {
-				"0": 5555,
-				"1": 47
+				"0": 3515,
+				"1": 522
 			},
 			"37": {
-				"0": 5504,
-				"1": 98
+				"0": 3465,
+				"1": 572
 			},
 			"38": {
-				"0": 5563,
-				"1": 39
+				"0": 3224,
+				"1": 813
 			},
 			"39": {
-				"0": 5560,
-				"1": 42
+				"0": 2304,
+				"1": 1733
 			},
 			"40": {
-				"0": 3486,
-				"1": 2116
+				"0": 3988,
+				"1": 49
 			},
 			"41": {
-				"0": 4947,
-				"1": 655
+				"0": 3619,
+				"1": 418
 			},
 			"42": {
-				"0": 5416,
-				"1": 186
+				"0": 2115,
+				"1": 1922
 			},
 			"43": {
-				"0": 5397,
-				"1": 205
+				"0": 3066,
+				"1": 971
 			},
 			"44": {
-				"0": 4886,
-				"1": 716
+				"0": 2399,
+				"1": 1638
 			},
 			"45": {
-				"0": 4505,
-				"1": 1097
+				"0": 2477,
+				"1": 1560
 			},
 			"46": {
-				"0": 3268,
-				"1": 2334
-			},
-			"47": {
-				"0": 5545,
-				"1": 57
-			},
-			"48": {
-				"0": 5060,
-				"1": 542
-			},
-			"49": {
-				"0": 3043,
-				"1": 2559
-			},
-			"50": {
-				"0": 4372,
-				"1": 1230
-			},
-			"51": {
-				"0": 3472,
-				"1": 2130
-			},
-			"52": {
-				"0": 3580,
-				"1": 2022
-			},
-			"53": {
-				"0": 5588,
-				"1": 14
+				"0": 4024,
+				"1": 13
 			}
 		},
 		"1": {
 			"0": {
-				"0": 16,
-				"1": 100
+				"0": 12,
+				"1": 83
 			},
 			"1": {
-				"0": 16,
-				"1": 100
+				"0": 14,
+				"1": 81
 			},
 			"2": {
-				"0": 97,
-				"1": 19
+				"0": 79,
+				"1": 16
 			},
 			"3": {
-				"0": 100,
-				"1": 16
+				"0": 82,
+				"1": 13
 			},
 			"4": {
-				"0": 96,
-				"1": 20
+				"0": 65,
+				"1": 30
 			},
 			"5": {
-				"0": 79,
-				"1": 37
-			},
-			"6": {
-				"0": 97,
-				"1": 19
-			},
-			"7": {
-				"0": 36,
-				"1": 80
-			},
-			"8": {
-				"0": 95,
-				"1": 21
-			},
-			"9": {
-				"0": 72,
-				"1": 44
-			},
-			"10": {
-				"0": 34,
-				"1": 82
-			},
-			"11": {
-				"0": 108,
-				"1": 8
-			},
-			"12": {
-				"0": 108,
-				"1": 8
-			},
-			"13": {
-				"0": 109,
-				"1": 7
-			},
-			"14": {
-				"0": 109,
-				"1": 7
-			},
-			"15": {
-				"0": 104,
-				"1": 12
-			},
-			"16": {
-				"0": 90,
-				"1": 26
-			},
-			"17": {
-				"0": 12,
-				"1": 104
-			},
-			"18": {
-				"0": 99,
-				"1": 17
-			},
-			"19": {
-				"0": 100,
-				"1": 16
-			},
-			"20": {
-				"0": 78,
-				"1": 38
-			},
-			"21": {
-				"0": 106,
-				"1": 10
-			},
-			"22": {
-				"0": 110,
-				"1": 6
-			},
-			"23": {
-				"0": 21,
-				"1": 95
-			},
-			"24": {
-				"0": 12,
-				"1": 104
-			},
-			"25": {
-				"0": 101,
+				"0": 80,
 				"1": 15
 			},
+			"6": {
+				"0": 31,
+				"1": 64
+			},
+			"7": {
+				"0": 79,
+				"1": 16
+			},
+			"8": {
+				"0": 60,
+				"1": 35
+			},
+			"9": {
+				"0": 30,
+				"1": 65
+			},
+			"10": {
+				"0": 88,
+				"1": 7
+			},
+			"11": {
+				"0": 89,
+				"1": 6
+			},
+			"12": {
+				"0": 89,
+				"1": 6
+			},
+			"13": {
+				"0": 84,
+				"1": 11
+			},
+			"14": {
+				"0": 12,
+				"1": 83
+			},
+			"15": {
+				"0": 82,
+				"1": 13
+			},
+			"16": {
+				"0": 83,
+				"1": 12
+			},
+			"17": {
+				"0": 86,
+				"1": 9
+			},
+			"18": {
+				"0": 90,
+				"1": 5
+			},
+			"19": {
+				"0": 17,
+				"1": 78
+			},
+			"20": {
+				"0": 9,
+				"1": 86
+			},
+			"21": {
+				"0": 83,
+				"1": 12
+			},
+			"22": {
+				"0": 72,
+				"1": 23
+			},
+			"23": {
+				"0": 89,
+				"1": 6
+			},
+			"24": {
+				"0": 89,
+				"1": 6
+			},
+			"25": {
+				"0": 89,
+				"1": 6
+			},
 			"26": {
-				"0": 87,
-				"1": 29
+				"0": 89,
+				"1": 6
 			},
 			"27": {
-				"0": 109,
-				"1": 7
+				"0": 90,
+				"1": 5
 			},
 			"28": {
-				"0": 109,
-				"1": 7
+				"0": 89,
+				"1": 6
 			},
 			"29": {
-				"0": 109,
-				"1": 7
+				"0": 8,
+				"1": 87
 			},
 			"30": {
-				"0": 109,
-				"1": 7
+				"0": 85,
+				"1": 10
 			},
 			"31": {
-				"0": 110,
+				"0": 89,
 				"1": 6
 			},
 			"32": {
-				"0": 109,
+				"0": 88,
 				"1": 7
 			},
 			"33": {
-				"0": 9,
-				"1": 107
+				"0": 91,
+				"1": 4
 			},
 			"34": {
-				"0": 101,
-				"1": 15
+				"0": 91,
+				"1": 4
 			},
 			"35": {
-				"0": 104,
-				"1": 12
+				"0": 10,
+				"1": 85
 			},
 			"36": {
-				"0": 109,
-				"1": 7
+				"0": 63,
+				"1": 32
 			},
 			"37": {
-				"0": 108,
-				"1": 8
+				"0": 65,
+				"1": 30
 			},
 			"38": {
-				"0": 111,
-				"1": 5
-			},
-			"39": {
-				"0": 111,
-				"1": 5
-			},
-			"40": {
 				"0": 13,
-				"1": 103
-			},
-			"41": {
-				"0": 78,
-				"1": 38
-			},
-			"42": {
-				"0": 108,
-				"1": 8
-			},
-			"43": {
-				"0": 107,
-				"1": 9
-			},
-			"44": {
-				"0": 80,
-				"1": 36
-			},
-			"45": {
-				"0": 17,
-				"1": 99
-			},
-			"46": {
-				"0": 37,
-				"1": 79
-			},
-			"47": {
-				"0": 108,
-				"1": 8
-			},
-			"48": {
-				"0": 91,
-				"1": 25
-			},
-			"49": {
-				"0": 34,
 				"1": 82
 			},
-			"50": {
-				"0": 102,
-				"1": 14
+			"39": {
+				"0": 31,
+				"1": 64
 			},
-			"51": {
-				"0": 92,
-				"1": 24
+			"40": {
+				"0": 87,
+				"1": 8
 			},
-			"52": {
-				"0": 94,
+			"41": {
+				"0": 73,
 				"1": 22
 			},
-			"53": {
-				"0": 107,
-				"1": 9
+			"42": {
+				"0": 28,
+				"1": 67
+			},
+			"43": {
+				"0": 85,
+				"1": 10
+			},
+			"44": {
+				"0": 73,
+				"1": 22
+			},
+			"45": {
+				"0": 75,
+				"1": 20
+			},
+			"46": {
+				"0": 87,
+				"1": 8
 			}
 		}
 	};
@@ -20123,7 +20060,7 @@ webpackJsonp([3],[
 	   //#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 	   //#------------------------------------------------------------------------------------------
 	   print: function (car) {	  
-			for (var t = 0; t < 54; t++) {			
+			for (var t = 0; t < 47; t++) {			
 				if (new_instance[t]===1)
 				{
 					console.log("Attribute : "+t+" : "+new_instance[t]+"  --  "+car);			
@@ -20204,7 +20141,7 @@ webpackJsonp([3],[
 						}													
 	    			} 			  
 				}			
-			    nattr=54;		    
+			    nattr=47;		    
 				//Class
 				for(var myKey in myClass) //Class
 				{

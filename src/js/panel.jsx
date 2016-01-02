@@ -284,7 +284,7 @@ var DomainReport = React.createClass({
 				
 				//acum=acum+1;
 				//console.log("entrando-- "+url+" conti "+this.props.conti);
-				//resp=init(54,2,this.props.conti).created;  //This is for each url	
+				//resp=init(47,2,this.props.conti).created;  //This is for each url	
 				reports.push(
 					<ScriptReport
 						key={url}
@@ -366,7 +366,7 @@ var ScriptReport = React.createClass({
 			internal=internal+1;					
 			if (past_url!==this.props.key)
 			{			  
-			  resp=init(54,2).created;  //Initialize the array for each url, we have 54 attributes and 2 classes
+			  resp=init(47,2).created;  //Initialize the array for each url, we have 47 attributes and 2 classes
 			  if (val_canvas == 'canvasFingerprinting')
 			  {
 			  	result=scora("Canvas").fingerp;				

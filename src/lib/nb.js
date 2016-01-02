@@ -30,7 +30,7 @@ var selfit = {
    //#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
    //#------------------------------------------------------------------------------------------
    print: function (car) {	  
-		for (var t = 0; t < 54; t++) {			
+		for (var t = 0; t < 47; t++) {			
 			if (new_instance[t]===1)
 			{
 				console.log("Attribute : "+t+" : "+new_instance[t]+"  --  "+car);			
@@ -111,7 +111,7 @@ var selfit = {
 					}													
     			} 			  
 			}			
-		    nattr=54;		    
+		    nattr=47;		    
 			//Class
 			for(var myKey in myClass) //Class
 			{

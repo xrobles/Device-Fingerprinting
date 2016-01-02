@@ -1,0 +1,5 @@
+chrome/js/builds/
+dist/
+node_modules/
+samples/
+src/lib/vendor/
